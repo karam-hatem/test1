@@ -1,0 +1,48 @@
+body{
+    background-color:rgba(162, 198, 222, 0.203);
+}
+
+
+.AAA{ 
+    border: 2px solid #000 ; 
+    background-color: white; 
+    width: 970px;
+}
+
+.first{
+    background-color:cyan ;
+
+}
+
+.first1{
+
+background-color: chartreuse;
+
+}
+
+
+
+
+ .BBB{
+    border: 2px dashed #000 ;
+    background-color: white; 
+    padding: 0px 10px;
+    width: 950px;
+
+ }
+
+ .b1{
+    border: 2px dashed red;
+    background-color: white; 
+    width: 950px;
+
+ }
+
+
+ .CCC{
+
+border: 2px solid #000;
+background-color: white;
+width: 970px;
+
+ }

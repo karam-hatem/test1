@@ -1,0 +1,20 @@
+.AAA{
+    color: orange;
+    font-size: 20px;
+}
+
+
+.BBB{
+border: 2px;
+    background-image:url(04_01_preview_2x.jpg);
+    background-size: 1000px 500px;
+    width: 1000px;   
+    height: 500px;
+}
+
+
+
+.MMMM{
+
+    padding-top: 200px;
+}
