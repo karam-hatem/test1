@@ -1,0 +1,38 @@
+body{
+    background-color:bisque;
+}
+ 
+.First1{
+    border: 5px solid red;
+    background-color: white;
+    width:1000px;
+   
+}
+
+.one{
+    background-color: yellow;
+}
+
+.tow{
+    background-color: red;
+}
+
+.Tow{
+border: 2px dashed black;
+background-color: white;
+width: 1000px;
+padding: 0px 10px;
+
+}
+.Tow1{
+    border: 2px dashed red;
+    padding: 0px 10px;
+    width: 950px;
+
+}
+
+.three{
+    border: 5px solid black;
+    background-color: aliceblue;
+    width: 1000px;
+}
