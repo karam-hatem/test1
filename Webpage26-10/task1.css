@@ -1,0 +1,80 @@
+body{
+    margin: 0px 20%  0px 20%;
+    
+
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+ 
+}
+.class1{
+ display: flex;
+ align-items: center;
+
+}
+.fa-utensils{
+    font-size: 60px;
+}
+.class2{
+    font-size: 200%;
+    text-align: right; 
+}
+
+
+.class4{
+    margin-left:10px;
+}
+/* .class4 p{
+ margin-top: 50px;
+} */
+
+
+img{
+    width: 100%;
+    height: 100% ; 
+}
+.classck{
+
+border: 2px solid wheat;
+background-image:url('Capture.PNG') ;
+display: grid;
+grid-template-columns: auto auto;
+box-shadow:10px 10px rgb(225, 186, 186) ;
+}
+
+
+.chef{
+/* border-radius:50%; */
+width: 100px;
+height:100px;
+
+}
+.input{
+    background-color: rgb(225, 186, 186);
+    margin-left :40% ;
+    text-align: center;
+}
+
+
+.sub{
+    text-align: center;
+
+}
+
+h3{
+    font-family: 'Fasthand', cursive;
+
+}
+.contaner{
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    height: 30px;
+    
+}
