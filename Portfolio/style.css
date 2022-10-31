@@ -1,0 +1,537 @@
+/* @import url('@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');'); */
+
+*{
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+/* ////////////////////////////////////////header/////////////////////////////////////// */
+header{
+    background-color:rgb(233, 190, 190);
+    width:100% ;
+    display: flex;
+    position: fixed;
+    top: 0 ;
+    z-index: 999 ;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.logo{
+    text-decoration:underline;
+    color:black;
+    text-transform: uppercase;
+    font-weight:800;
+    font-size:30px;
+    margin-left: 13px;
+}
+
+.logo:hover{
+    color:orangered;
+    transition:.5s ease ;
+    background-color:black;
+    border-radius: 25px;
+}
+.navebar{
+    margin-right: 50px;
+}
+
+
+.navebar a{
+    text-decoration:none;
+    font-size:24px;
+    font-weight:100px;
+    margin-left: 20px;
+    color: black;
+}
+.navebar a:hover{
+    color:red;
+    transition: 1s ease;
+}
+
+.navebar a:hover{
+    background-color:black;
+    transform: Poppins(1.1);
+    border-radius:20px;
+ 
+}
+
+/* ////////////////////////////////////////////Main/////////////////////////////////////////////////// */
+section{
+    padding: 100px 150px;
+}
+.main{
+    width: 100%;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     margin: 0 auto;
+    align-items: center;
+    background-color:rgb(18, 18, 50);
+
+    /* background: url('./images/web3.jpg') no-repeat; */
+    
+}
+
+.main img{
+    display:block;
+    height:100%;
+    width:85%;
+    border-radius:50%;
+    margin-top:100px;
+    margin-left:75px;
+}
+
+
+.main h2{
+    color:wheat;
+    font-size:60px;
+    /* font-weight:750px; */
+    margin-left:20px;
+                            
+}
+
+
+.main h2 span {
+    display: inline-block;
+    margin-left:50px;
+    margin-top:25px;
+    color:orangered;
+    font-size:40px ;   
+}
+.main h3{
+    color:white;
+    font-size:30px ;
+    font-weight:800px;
+    letter-spacing:1px ;
+    margin-left:200px ;
+    margin-top:20px ;
+    margin-bottom:40px;
+}
+
+.main-btn{
+    max-width:200px;
+    color:whitesmoke;
+    background-color:whitesmoke;
+    text-decoration:none;
+    font-size:30px;
+    border-radius:25px;
+    letter-spacing:0px;
+    text-align: center;
+    transition: .6s ease;
+}
+.main-btn:hover{
+    background-color:orangered;
+    transform:scale(1.1)
+
+}
+
+.socil-icon{ 
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.socil-icon a{
+    color:white;
+    font-size:40px; 
+    margin-left:70px;
+    transition: .9s ease;
+}
+
+.main .socil-icon :hover{
+    transform: scale(1.1);
+    color:red;
+}
+
+                       /* ///////////////////////////////////////ABOUT//////////////////////////////////////////////////// */
+.About{
+    background-color:#0f1560;  
+}
+
+.Abo{
+    display: flex;
+    justify-content: center;
+    color: orangered;
+    font-size: 80px;
+    font-weight: 20px;
+    margin-bottom:130px;
+}
+
+.Abo1{
+    color:whitesmoke;
+    font-size:45px;
+    font-weight:100px ;
+}
+
+                          /* ///////////////////////////////////////Education //////////////////////////////////////////////// */
+
+.Education{
+    background-color:#1e2261;
+}
+
+.Edu{
+    text-align: center;
+    color: orangered;
+    font-size: 75px;
+    font-weight: 20px;
+    margin-bottom:100px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;  
+}
+
+.content{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.box{
+    background-color:white;
+    width:360px;
+    box-shadow: 10px 25px 10px rgb(105, 105, 118);
+    border-radius:25px;
+    margin:15px;
+    transition: .7s ease ;
+}
+
+.box:hover {
+    transform: scale(.9);
+}
+
+.icon{
+    color:rgb(61, 61, 87);
+    font-size: 100px;
+    text-align:center;
+}
+
+.info{
+    text-align: center;
+}
+
+
+.info h3{
+    color:orangered;
+    font-size:25px ;
+    margin:50px;
+}
+
+.info p{
+    font-size: 30px;
+    color: #0f1560;
+}
+
+                          /* * ///////////////////////////////////////////Projeact///////////////////////////////////////////// */ 
+
+.Projeact{
+    background-color:#0f1560;
+}
+
+.Pro{
+    display: flex;
+    justify-content: center;
+    color: orangered;
+    font-size: 75px;
+    font-weight: 20px;
+    margin-bottom:100px;
+}
+.box-Pro{
+    background-color:white;
+    width:360px;
+    box-shadow: 10px 25px 10px rgb(105, 105, 118);
+    border-radius:25px;
+    margin: 15px;
+    transition: .7s ease ;
+}
+
+.box-Pro:hover {
+    transform: scale(.9);
+}
+
+
+                                  /* * ///////////////////////////////////////////Skils///////////////////////////////////////////// */   
+
+
+.Skils{
+    background-color:#1e2261;
+}
+
+.skils{
+    display: flex;
+    justify-content: center;
+    color: orangered;
+    font-size: 80px;
+    font-weight: 20px;
+    margin-bottom:160px;
+                    margin:100px;
+    
+}
+
+.Skils1{
+    color:white;                          
+    font-size:80px; 
+    margin-right:50px;
+    margin:50px;
+    transition: .6s ease;
+}
+.Skils1 :hover {
+
+        background-color:#1e2261;
+        transform:scale(1.1)
+    }
+
+.fa-html5{
+    margin: 0px 100px;
+}
+
+.fa-css3{
+    margin: 0px 50px;
+}
+
+.fa-java{
+    margin: 0px 50px;
+}
+.fa-bootstrap{
+    margin: 0px 50px;
+}
+.fa-reacteurope{
+    margin: 0px 50px;
+}
+
+                                  /* * ///////////////////////////////////////////Contact///////////////////////////////////////////// */
+.card{
+    height:100%;
+    text-align: center;
+    background-color: #24285f;
+    
+
+}
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 40%;
+    margin: 0 auto;
+}
+.card1 a{
+
+font-size: 60px;
+
+}
+.fa-phone{
+    font-size: 60px;
+}
+.card h2{
+    margin-bottom:50px;
+    color: orangered;
+    font-size: 40px;
+    
+}
+.cr{
+    color: white;
+}
+.card span{
+    color: orangered;
+    font-size: 40px;
+}
+
+
+
+
+
+    
+
+                                   /* ////////////////////////////////////////////////footer///////////////////////////////////////////////////// */
+/* .footer{
+    background-color: #1e2261;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    
+} */
+/* .footer-tital span{
+    color: wheat;
+    font-size:20px;
+    text-decoration: underline;
+    transition: .2s ease;
+}
+.footer .socil-icon :hover{
+    color:red;
+    transform: scale(1.1);
+} */
+
+
+@media(max-width:1013px){
+    .main{
+        grid-template-columns: 1fr;
+    }
+    .main .img{
+        display: none;
+        position:initial;
+        visibility: hidden; 
+    }
+}
+
+    
+
+
+    @media(max-width:841px){
+     
+        body{
+            font-size: 12px;
+        }
+        .main-content h2{
+            font-size: 13px;
+        }
+        
+        .main-content h3{
+            font-size: 20px;
+        }
+        section{
+            padding: 0px;
+
+        }  
+        header{
+            width: 100%;
+            display: block;
+            padding:0;
+            margin: 0px;
+
+        }
+        .navebar a{
+            padding: 0;
+            margin-left: 0px;
+        }
+        .main h3{
+            padding: 0;
+        }
+        .main h2{
+            padding: 0px;
+            margin: 0px;
+            font-size: 2rem;
+            margin-top:70px;
+        }
+        .main h2 span{
+            padding: 0;
+        } 
+        .main-btn{
+            padding:0px;
+            margin: 0px;
+        }
+        .main-btn h2{
+            padding: 0px;
+            margin: 0px;
+        }
+        .socil-icon{
+            padding: 0;
+            margin: 0;
+        }
+        .socil-icon a{
+            margin-left:50px;
+        }
+        .navebar{
+            padding:0;
+            margin: 0;
+            
+            display: none;
+        }
+        .Abo{
+            font-size:50px;
+        }
+        .Abo1{
+            font-size: 20px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .Edu{
+            font-size: 50px;
+            font-weight: 10px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .con{
+            flex-direction: column;
+        }
+        .content{
+            flex-direction: column;
+        }
+    
+        .info h3{
+            margin:10px;
+        }
+
+        .Pro{
+            font-size: 60px;
+            font-weight: 10px;
+            padding: 0px;
+            margin: 0px;
+
+        }
+        .box-Pro{
+            margin: 0px;
+        }
+
+
+        .skils{
+            font-size: 50px;
+            font-weight: 10px;
+            padding: 0px;
+            margin: 0px;
+
+        }
+        .Skils1{
+            margin: 0px;
+            padding:80px;
+            font-size:25px;
+        }
+
+        .fa-html5{
+            margin:2px;
+            padding: 0px;
+
+        }
+        
+        .fa-css3{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .fa-java{
+            margin: 0px;
+            padding: 0px;
+        }
+        .fa-bootstrap{
+            margin: 0px ;
+            padding: 0px;
+        }
+        .fa-reacteurope{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .card{
+            font-size:30px;
+            font-weight:10px;
+            padding: 0px;
+            margin: 0px;
+
+        }
+        .card1{
+            margin:0px;
+            padding:44px;
+     
+        }
+
+
+
+          }
+
